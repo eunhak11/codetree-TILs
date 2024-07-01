@@ -17,7 +17,7 @@ public class Main {
     }
     public static boolean isTsn(int n){
         while(n!=0){
-            if((n%10)%3==0){
+            if((n%10!=0) && (n%10)%3==0){
                 return true;
             } 
             else{
