@@ -4,13 +4,13 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a=sc.nextInt();
         int b=sc.nextInt();
-        int cnt=0;
+        int res=0;
         for(int i=a; i<b+1; i++){
             if(isPrime(i)){
-                cnt+=i;
+                res+=i;
             }
         }
-        System.out.println(cnt);
+        System.out.println(res);
     }
 
     public static boolean isPrime(int n){
