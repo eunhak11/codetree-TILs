@@ -7,7 +7,7 @@ public class Main {
         int c=sc.nextInt();
 
         switch(b){
-            case "+": System.out.printf("&d + %d = %d", a, c, a+c);
+            case "+": System.out.printf("%d + %d = %d", a, c, a+c);
                 break;
             case "-": System.out.printf("%d - %d = %d", a, c, a-c);
                 break;
