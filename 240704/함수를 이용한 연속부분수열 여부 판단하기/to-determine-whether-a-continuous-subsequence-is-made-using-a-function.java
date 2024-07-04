@@ -40,8 +40,6 @@ public class Main {
                     if(idc>0) return true;
                 }
             }
-            if(idc>0) return true;
-            else return false;
         }
     }
 }
