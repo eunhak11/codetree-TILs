@@ -23,7 +23,8 @@ public class Main {
         }
 
         else{ // arr이 brr보다 긴 경우
-            for(int i=0; i<arr.length; i++){
+            int idc=0;
+            for(int i=0; i<arr.length; i++){ // 틀린 조건 거르는 for문
                 if(arr[i] == brr[0]){
                     if(brr.length > (arr.length- i)){ // brr길이가 남은 배열보다 긴 경우
                         return false;
@@ -33,12 +34,13 @@ public class Main {
                             if(arr[i+j]!=brr[j]){ // 하나라도 다른 경우 false
                                 return false;
                             }
-                            else return true;
                         }
+                        idc++;
                     }
                 }
             }
-            return true;
+            if(idc>0) return true;
+            else return false;
         }
     }
 }
