@@ -33,6 +33,7 @@ public class Main {
                             if(arr[i+j]!=brr[j]){ // 하나라도 다른 경우 false
                                 return false;
                             }
+                            else return true;
                         }
                     }
                 }
