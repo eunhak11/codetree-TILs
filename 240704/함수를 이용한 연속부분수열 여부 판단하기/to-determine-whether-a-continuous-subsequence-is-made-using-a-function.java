@@ -37,6 +37,7 @@ public class Main {
                         }
                         idc++;
                     }
+                    if(idc>0) return true;
                 }
             }
             if(idc>0) return true;
