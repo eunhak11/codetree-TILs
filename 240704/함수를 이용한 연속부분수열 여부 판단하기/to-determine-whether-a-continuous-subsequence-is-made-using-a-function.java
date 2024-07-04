@@ -26,7 +26,7 @@ public class Main {
             int idc=0;
             for(int i=0; i<arr.length; i++){ // 틀린 조건 거르는 for문
                 if(arr[i] == brr[0]){
-                    if(brr.length > (arr.length- i)){ // brr길이가 남은 배열보다 긴 경우
+                    if(brr.length > (arr.length- i+1)){ // brr길이가 남은 배열보다 긴 경우
                         return false;
                     }
                     else{
