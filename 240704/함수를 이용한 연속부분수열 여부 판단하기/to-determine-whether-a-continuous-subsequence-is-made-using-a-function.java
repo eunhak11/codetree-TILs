@@ -25,7 +25,7 @@ public class Main {
         else{ // arr이 brr보다 긴 경우
             for(int i=0; i<arr.length; i++){
                 if(arr[i] == brr[0]){
-                    if(brr.length > (arr.length- i+1)){ // brr길이가 남은 배열보다 긴 경우
+                    if(brr.length > (arr.length- i)){ // brr길이가 남은 배열보다 긴 경우
                         return false;
                     }
                     else{
