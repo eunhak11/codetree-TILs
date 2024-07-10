@@ -14,7 +14,7 @@ public class Main {
     }
     public static void prDown(int n){
         if(n==0) return;
+        System.out.printf("%d ", n);
         prDown(n-1);
-        System.out.printf("%d ", 8-n);
     }
 }
