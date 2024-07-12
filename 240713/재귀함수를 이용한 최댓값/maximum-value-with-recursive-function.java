@@ -11,9 +11,8 @@ public class Main {
         System.out.println(fMax(n));
     }
     public static int fMax(int n){
-        if(n==1) return max;
-
         max = (max>arr[n]) ? max : arr[n];
+        if(n==1) return max;
         return fMax(n-1);
     }
 }
