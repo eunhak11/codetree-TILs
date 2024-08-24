@@ -8,6 +8,7 @@ public class Main {
         int k=sc.nextInt();
         int[] arr=new int[n];
         for(int i=0; i<n; i++) arr[i]=sc.nextInt();
-        System.out.println(arr[k]);
+        Arrays.sort(arr);
+        System.out.println(arr[k-1]);
     }
 }
