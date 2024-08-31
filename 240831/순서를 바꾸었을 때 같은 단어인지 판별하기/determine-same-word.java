@@ -14,6 +14,11 @@ public class Main {
     }
 
     public static void sch(char[] arr, char[] brr){
+
+        if(arr.length != brr.length){
+            System.out.println("No");
+            return;
+        }
         for(int i=0; i<arr.length; i++){
             if(arr[i] != brr[i]){
                 System.out.println("No");
